@@ -1,7 +1,7 @@
 {
-  "webPort": 8000,
+  "webPort": 80,
 
-  "mongodbUrl": "mongodb://localhost/nodepush",
+  "mongodbUrl": "mongodb://pushnotification:pushnotification@ds015909.mlab.com:15909/pushnotifications",
 
   "gcm": {
     "apiKey": "AIzaSyB3OTx_UylyI8nYGRxSjVC0oz70CsaKQbY"
