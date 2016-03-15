@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-pushserver",
+  "version": "0.5.4",
+  "description": "Cross-platform Push Notifications.",
+  "keywords": [
+    "push",
+    "gcm",
+    "apn",
+    "mongodb"
+  ],
+  "dependencies": {
+    "apn": "*",
+    "body-parser": "^1.13.3",
+    "commander": "*",
+    "compression": "^1.5.2",
+    "express": "*",
+    "lodash": "*",
+    "mongoose": "*",
+    "node-gcm": "*"
+  },
+  "bin": {
+    "pushserver": "./server.js"
+  },
+  "main": "./lib/PushController.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "webPort": 8000,
+
+  "mongodbUrl": "mongodb://localhost/nodepush",
+
+  "gcm": {
+    "apiKey": "AIzaSyB3OTx_UylyI8nYGRxSjVC0oz70CsaKQbY"
+  },
+
+  "apn": {
+    "connection": {
+      "gateway": "gateway.sandbox.push.apple.com",
+      "cert": "~/ssh/safari_extension.pem",
+      "key": "~/ssh/safdev.key"
+    },
+    "feedback": {
+      "address": "feedback.sandbox.push.apple.com",
+      "cert": "~/ssh/safari_extension.pem",
+      "key": "~/ssh/safdev.key",
+      "interval": 43200,
+      "batchFeedback": true
+    }
+  }
+}
